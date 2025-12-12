@@ -21,11 +21,12 @@ const Footer = ({ siteInfo }) => {
         <div>
           <i className='mx-1 animate-pulse fas fa-heart' />{' '}
           <a
-            href={siteConfig('LINK')}
+            /** href={siteConfig('LINK')}
+             */
             className='underline font-bold text-gray-500 dark:text-gray-300 '>
             {siteConfig('AUTHOR')}
           </a>
-          .<br />
+           <br />
         </div>
         © {`${copyrightDate}`}
       </div>
@@ -52,9 +53,9 @@ const Footer = ({ siteInfo }) => {
       <div className='text-xs font-serif'>
         Powered By{' '}
         <a
-          href='https://github.com/tangly1024/NotionNext'
+          href='https://blog.kokorolyase.top'
           className='underline text-gray-500 dark:text-gray-300'>
-          NotionNext {siteConfig('VERSION')}
+          KokoroLyase
         </a>
       </div>
       {/* SEO title */}
