@@ -28,14 +28,6 @@ const Footer = ({ siteInfo }) => {
         </>
       )}
 
-      <span className='hidden busuanzi_container_site_pv'>
-        <i className='fas fa-eye' />
-        <span className='px-1 busuanzi_value_site_pv'> </span>{' '}
-      </span>
-      <span className='pl-2 hidden busuanzi_container_site_uv'>
-        <i className='fas fa-users' />{' '}
-        <span className='px-1 busuanzi_value_site_uv'> </span>{' '}
-      </span>
       <div className='text-xs font-serif'>
         Powered By{' '}
         <a
